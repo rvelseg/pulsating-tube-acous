@@ -15,7 +15,7 @@ t_ini = 0        # initial time in units of wave periods
 
 f = 1        # frequency = 1 cycle per period
 w = 2*pi*f
-c = 1        # one wavelegth per period
+c = 1        # one wavelength per period
 k  = w/c
 ld = 2*pi/k  # = 1
 
@@ -57,7 +57,7 @@ def animate(t):
         lines[0].set_xdata(r)
         lines[1].set_xdata(r)
     timetext.set_text('')
-    atext.set_text("tube radius in wavelegths = " + "{:.2e}".format(a))
+    atext.set_text("tube radius in wavelengths = " + "{:.2e}".format(a))
     lines[0].set_ydata(p(r,t))
     lines[1].set_ydata(u(r,t))
     scatter.set_offsets([[a],[p_approx(t)]])
@@ -79,7 +79,7 @@ lines.append(line)
 scatter = ax.scatter([a],[p_approx(t_ini)],label='p as Z*u',s=10)
 ax.set_ylim( (-abs(Z(a))*u_0*2,abs(Z(a))*u_0*2) )
 ax.set_xlim( 0,r[-1] )
-ax.set_xlabel("r (wavelegths)")
+ax.set_xlabel("r (wavelengths)")
 ax.legend(handles=tuple(lines) + (scatter,))
 timetext = ax.text(0.1, 0.95, '', transform = ax.transAxes, va='center')
 atext = ax.text(0.1, 0.91, '', transform = ax.transAxes, va='center')
