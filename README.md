@@ -15,10 +15,10 @@ wavelegth, the relative error is still in the order of 10%.
 
 https://youtu.be/yvoGAYsI9qk
 
-# Afiliations
+# Credits
 
-Authors : Roberto Velasco Segura and Pablo L. Rendón
+Authors: Roberto Velasco Segura and Pablo L. Rendón
 
-Affiliations : Grupo de Acústica y Vibraciones, Centro de Ciencias
-Aplicadas y Desarrollo Tecnológico (CCADET), Universidad Nacional
-Autónoma de México (UNAM).
+Grupo de Acústica y Vibraciones, Centro de Ciencias Aplicadas y
+Desarrollo Tecnológico (CCADET), Universidad Nacional Autónoma de
+México (UNAM).
