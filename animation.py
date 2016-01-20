@@ -88,6 +88,6 @@ ani = animation.FuncAnimation(fig, animate, arange(0, 20, 0.003),
                               repeat=False, init_func=init,
                               interval=25, blit=True)
 
-ani.save("pulsating-tube.mp4", writer="avconv")
+# ani.save("pulsating-tube.mp4", writer="avconv")
 
 show()
